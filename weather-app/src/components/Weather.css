@@ -1,0 +1,41 @@
+
+.weather-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    animation: slideUp 1.5s ease-in-out;
+  }
+  
+  .weather-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    font-size: 1rem;
+  }
+  
+  .weather-container button {
+    padding: 10px 15px;
+    background: #eee7ea;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .weather-container button:hover {
+    background: #f1f0f0;
+  }
+  
+  .weather-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background: rgba(54, 15, 231, 0.3);
+    backdrop-filter: blur(5px);
+    text-align: center;
+}
